@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women Safety Alert System</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+<header>
+
+    <nav>
+
+        <h1>Women Safety System</h1>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="complaint.html">Complaint</a></li>
+            <li><a href="login.html">Login</a></li>
+        </ul>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <div class="hero-content">
+
+        <h2>Your Safety Is Our Priority</h2>
+
+        <p>
+            Smart Women Safety Alert & Tracking System
+        </p>
+
+        <button id="sosBtn">
+            SOS ALERT
+        </button>
+
+    </div>
+
+</section>
+
+<section class="cards-section">
+
+    <div class="card">
+
+        <h3>Live Location</h3>
+
+        <p id="location">
+            Click button to get location
+        </p>
+
+        <button onclick="getLocation()">
+            Get Location
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Voice Alert</h3>
+
+        <p>
+            Emergency voice support system
+        </p>
+
+        <button onclick="voiceAlert()">
+            Start Voice Alert
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Dark Mode</h3>
+
+        <p>
+            Enable night safety mode
+        </p>
+
+        <button onclick="toggleDarkMode()">
+            Toggle Mode
+        </button>
+
+    </div>
+
+    <div class="card">
+
+        <h3>Fake Call</h3>
+
+        <p>
+            Fake incoming call support
+        </p>
+
+        <button onclick="fakeCall()">
+            Start Fake Call
+        </button>
+
+    </div>
+
+</section>
+
+<section class="tips-section">
+
+    <h2>Safety Tips</h2>
+
+    <div class="tips-container">
+
+        <div class="tip-card">
+            <h3>Travel Safety</h3>
+
+            <p>
+                Avoid isolated areas and always share your location.
+            </p>
+        </div>
+
+        <div class="tip-card">
+            <h3>Emergency Contacts</h3>
+
+            <p>
+                Save police and women helpline numbers.
+            </p>
+        </div>
+
+        <div class="tip-card">
+            <h3>Cyber Safety</h3>
+
+            <p>
+                Never share OTP and passwords online.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <p>
+        Women Safety Alert & Tracking System
+    </p>
+
+</footer>
+
+<script src="js/script.js"></script>
+<script src="js/location.js"></script>
+<script src="js/alert.js"></script>
+<script src="js/darkmode.js"></script>
+
+</body>
+</html>
